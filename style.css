@@ -1,0 +1,149 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    background-image: url(bgimage.jpg);
+    color: antiquewhite;
+}
+.navbar{
+    background-color: black;
+    color: white;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    
+}
+.head{
+    color: antiquewhite;
+}
+
+.navbar a{
+    text-decoration: none;
+    color: white;
+    margin: 8px;
+}
+
+.navbar a:hover{
+    color: orange;
+}
+.home h3{
+    color: antiquewhite;
+}
+section{
+    padding: 40px 10%;
+    text-align: center;
+}
+
+#home{
+    padding: 80px 10%;
+}
+.button{
+    text-decoration: none;
+    border: 1px solid;
+    border-radius: 5px;
+    padding: 10px 20px;
+    background-color: black;
+    color: white;
+   
+}
+.button:hover{
+    background-color: blue;
+}
+.card {
+    background-color: rgb(255, 255, 255,0.12);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    color: white;
+    border-radius: 15px;
+    padding: 15px;
+    margin: 15px auto;
+    max-width: 600px;
+}  
+.bar{
+     height: 15px; 
+    background-color: rgb(207, 205, 205);
+    border-radius: 10px;
+}
+.html {
+    background-color: #5148d8;
+    width: 80%;
+    height: 15px;
+    border-radius: 10px;
+}
+.css{
+     background-color: #5148d8;
+     width: 70%;
+     height: 15px;
+     border-radius: 10px;
+}
+.java{
+    background-color: #5148d8;
+     width: 85%;
+     height: 15px;
+     border-radius: 10px;
+}
+.python{
+    background-color: #5148d8;
+     width: 50%;
+     height: 15px;
+     border-radius: 10px;
+}
+form{
+    background-color: white;
+    max-width: 500px;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: left;
+    background-color: rgb(255, 255, 255,0.12);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    
+}
+label{
+    display: block;
+    margin-top: 10px;
+}
+input,textarea{
+    width: 95%;
+    margin-top: 5px;
+    padding: 10px;
+}
+button{
+    cursor: pointer;
+    background-color: #5148d8;
+    color: white;
+    margin-top: 5px ;
+    padding: 10px 20px;
+}
+footer{
+    text-align: center;
+    background-color: black;
+    color: white;
+   padding: 15px;
+}
+ a{
+    text-decoration: none;
+    color: white;
+}
+.same{
+    color: rgb(216, 148, 21);
+}
+h3{
+    color: red;
+}
+@media screen and (max-width: 600px) {
+    .navbar {
+        flex-direction: column;
+    }
+
+    .navbar a {
+        display: inline-block;
+        margin: 5px;
+    }
+
+    section {
+        padding: 30px 5%;
+    }
+}
